@@ -27,13 +27,11 @@ The module uses an `APPROVALS` worksheet to support authorization-code validatio
 ### Module2.bas — Folder Validation
 
 This utility demonstrates folder accessibility checks using VBA.
-
 It includes a demonstration password and a local directory check using Windows environment variables.
 
 ### Module6.bas — Exchange-Rate Integration
 
 This module retrieves exchange rates through the public Frankfurter API.
-
 The workflow includes:
 
 1. Reading currency codes from the configured Excel worksheet.
