@@ -11,7 +11,6 @@ The application combines Excel worksheet operations, Word document automation, P
 ### Module1.bas — GOP Generation
 
 The main VBA module coordinates the GOP generation process.
-
 Its responsibilities include:
 
 - Reading and validating information from Excel.
