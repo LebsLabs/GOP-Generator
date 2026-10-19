@@ -16,8 +16,6 @@ The GOP Generator automates repetitive administrative processes by integrating M
 
 ## Key Features
 
-## Key Features
-
 | Feature | Description |
 |---|---|
 | **Automated GOP Generation** | Populates Word templates using information from Excel and exports as PDFs. |
