@@ -16,12 +16,16 @@ The GOP Generator automates repetitive administrative processes by integrating M
 
 ## Key Features
 
-- **Automated GOP generation:** Populates Microsoft Word templates using information stored in Excel and exports completed documents as PDFs.
-- **Approval workflow:** Validates authorization codes against predefined financial thresholds.
-- **Register management:** Records processed GOP transactions in Excel worksheets.
-- **Financial tracking:** Supports the monitoring of GOP statuses and remaining financial balances.
-- **Currency exchange-rate integration:** Retrieves exchange rates from the Frankfurter API.
-- **Error handling:** Includes validation and error-handling procedures to help prevent incomplete processing.
+## Key Features
+
+| Feature | Description |
+|---|---|
+| **Automated GOP Generation** | Populates Microsoft Word templates using information stored in Excel and exports completed documents as PDFs. |
+| **Approval Workflow** | Validates authorization codes against predefined financial thresholds. |
+| **Register Management** | Records processed GOP transactions in Excel worksheets. |
+| **Financial Tracking** | Supports the monitoring of GOP statuses and remaining financial balances. |
+| **Currency Exchange-Rate Integration** | Retrieves exchange rates from the Frankfurter API. |
+| **Error Handling** | Includes validation and error-handling procedures to help prevent incomplete processing. |
 
 ## Technologies
 
