@@ -20,7 +20,7 @@ The GOP Generator automates repetitive administrative processes by integrating M
 
 | Feature | Description |
 |---|---|
-| **Automated GOP Generation** | Populates Microsoft Word templates using information stored in Excel and exports completed documents as PDFs. |
+| **Automated GOP Generation** | Populates Word templates using information from Excel and exports as PDFs. |
 | **Approval Workflow** | Validates authorization codes against predefined financial thresholds. |
 | **Register Management** | Records processed GOP transactions in Excel worksheets. |
 | **Financial Tracking** | Supports the monitoring of GOP statuses and remaining financial balances. |
