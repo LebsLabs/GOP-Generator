@@ -44,11 +44,7 @@ The `src/` directory contains three VBA modules:
 
 ## Notes
 
-This public repository contains anonymized VBA source code intended for technical review and portfolio demonstration.
-
-The operational Excel workbook, Word template, production credentials, and confidential business records are not included.
-
-As a result, the repository is not intended to function as a standalone, ready-to-run application.
+This public repository contains anonymized VBA source code intended for technical review and portfolio demonstration. The operational Excel workbook, Word template, production credentials, and confidential business records are not included. As a result, the repository is not intended to function as a standalone, ready-to-run application.
 
 ## Technical Documentation
 
