@@ -1,33 +1,40 @@
 # GOP Generator — Excel VBA Automation
 
-An Excel VBA-based automation solution designed to generate and track GOPs (Guarantees of Payment) within healthcare administration workflows.
+An Excel VBA-based automation solution designed to generate, manage, and track Guarantees of Payment (GOPs) within healthcare administration workflows.
 
 ## Why?
 
-A department within our company...
+The department responsible for issuing Guarantees of Payment to healthcare clinics previously relied on a largely manual process. Each GOP required staff to prepare the document individually, enter its details into an Excel register, and manually track subsequent changes, including whether the GOP had been closed and how much of the approved amount remained available. This approach involved repetitive administrative work, duplicated data entry, and the risk of inconsistencies between documents and registers.
+
+**The objective was to consolidate these activities into a single automated workflow.**
+
+The GOP Generator was developed to enable staff to generate documents, update records, and maintain financial tracking through a streamlined process.
+
+An additional requirement was to introduce an approval mechanism, allowing designated department managers to authorize GOPs exceeding predefined financial thresholds using approval codes.
 
 ## Project Overview
 
-The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data webpages.
+The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data.
 
 The solution demonstrates how VBA can be used to build structured business workflows, validate information, implement approval controls, and reduce manual document preparation.
 
 ## Key Features
 
 - **Automated GOP generation:** Populates Microsoft Word templates using information stored in Excel and exports completed documents as PDFs.
-- **Approval workflow:** Validates authorization codes against predefined approval thresholds.
+- **Approval workflow:** Validates authorization codes against predefined financial thresholds.
 - **Register management:** Records processed GOP transactions in Excel worksheets.
+- **Financial tracking:** Supports the monitoring of GOP statuses and remaining financial balances.
 - **Currency exchange-rate integration:** Retrieves exchange rates from the Frankfurter API.
 - **Error handling:** Includes validation and error-handling procedures to help prevent incomplete processing.
 
 ## Technologies
 
 - Microsoft Excel VBA
-- Microsoft Word Automation
+- Microsoft Word Automation (COM)
 - REST API integration (Frankfurter API)
-- PDF export
+- PDF generation and export
 - Windows file-system operations
-- deployed on Share Point
+- Microsoft SharePoint for file storage and collaboration
 
 ## Source Code
 
@@ -41,7 +48,11 @@ The `src/` directory contains three VBA modules:
 
 ## Notes
 
-This public repository contains VBA source code with demonstration credentials and anonymized configuration values. It does not include patient records or the operational Excel workbook. The macros are committed here only for the aim to demonstrate the programming skills. The Word template is not currently included.
+This public repository contains anonymized VBA source code intended for technical review and portfolio demonstration.
+
+The operational Excel workbook, Word template, production credentials, and confidential business records are not included.
+
+As a result, the repository is not intended to function as a standalone, ready-to-run application.
 
 ## Technical Documentation
 
@@ -58,4 +69,4 @@ For a more detailed understanding of the project, see:
 
 **Status:** Portfolio demonstration
 
-This repository showcases VBA programming and automation techniques developed for administrative workflows. The source code has been adapted for public presentation, with operational credentials and confidential business data excluded. With the aim to showcase the programming skills.
+This project illustrates the application of VBA programming to a real-world administrative challenge, combining document automation, financial tracking, approval workflows, and external data integration.
