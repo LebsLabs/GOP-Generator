@@ -6,8 +6,7 @@ An Excel VBA-based automation solution designed to generate, manage, and track G
 <div align="justify">
 The department responsible for issuing Guarantees of Payment to healthcare clinics previously relied on a largely manual process. Each GOP required staff to prepare the document individually, enter its details into an Excel register, and manually track subsequent changes, including whether the GOP had been closed and how much of the approved amount remained available. This approach involved repetitive administrative work, duplicated data entry, and the risk of inconsistencies between documents and registers. The objective was to consolidate these activities into a single automated workflow, minimizing discrepancies between generated GOP documents and their corresponding register entries while providing an all-in-one tool for GOP management. The GOP Generator was developed to enable staff to generate documents, update records, and maintain financial tracking through a streamlined process. An additional requirement was to introduce an approval mechanism, allowing designated department managers to authorize GOPs exceeding predefined financial thresholds using approval codes.
 </div>
-
-
+<br>
 **The objective was to consolidate these activities into a single automated workflow with the aim to reduce the inconsistency between the GOP and data entered into the table, and all-in-one tool for GOPs.**
 
 The GOP Generator was developed to enable staff to generate documents, update records, and maintain financial tracking through a streamlined process. An additional requirement was to introduce an approval mechanism, allowing designated department managers to authorize GOPs exceeding predefined financial thresholds using approval codes.
