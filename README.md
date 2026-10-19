@@ -39,3 +39,20 @@ The `src/` directory contains three VBA modules:
 This public repository contains VBA source code with demonstration credentials and anonymized configuration values. It does not include patient records or the operational Excel workbook.
 
 The Word template is not currently included.
+
+## Technical Documentation
+
+For a more detailed understanding of the project, see:
+
+- [System Architecture](docs/ARCHITECTURE.md) — Overview of the application components, VBA modules, data flow, and dependencies.
+- [Technical Skills Demonstrated](docs/TECHNICAL_SKILLS.md) — Programming techniques, Microsoft Office automation, API integration, and software development practices demonstrated by the project.
+
+## Portfolio Information
+
+**Developer:** [LebsLabs](https://github.com/LebsLabs)
+
+**Project Type:** VBA Business Process Automation
+
+**Status:** Portfolio demonstration
+
+This repository showcases VBA programming and automation techniques developed for administrative workflows. The source code has been adapted for public presentation, with operational credentials and confidential business data excluded.
