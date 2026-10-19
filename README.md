@@ -8,9 +8,7 @@ The department responsible for issuing Guarantees of Payment to healthcare clini
 
 **The objective was to consolidate these activities into a single automated workflow.**
 
-The GOP Generator was developed to enable staff to generate documents, update records, and maintain financial tracking through a streamlined process.
-
-An additional requirement was to introduce an approval mechanism, allowing designated department managers to authorize GOPs exceeding predefined financial thresholds using approval codes.
+The GOP Generator was developed to enable staff to generate documents, update records, and maintain financial tracking through a streamlined process. An additional requirement was to introduce an approval mechanism, allowing designated department managers to authorize GOPs exceeding predefined financial thresholds using approval codes.
 
 ## Project Overview
 
