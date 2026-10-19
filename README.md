@@ -1,10 +1,14 @@
 # GOP Generator — Excel VBA Automation
 
-An Excel VBA-based automation solution designed to streamline the generation and management of Guarantees of Payment (GOPs) within healthcare administration workflows.
+An Excel VBA-based automation solution designed to generate and track GOPs (Guarantees of Payment) within healthcare administration workflows.
+
+## Why?
+
+A department within our company...
 
 ## Project Overview
 
-The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data.
+The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data webpages.
 
 The solution demonstrates how VBA can be used to build structured business workflows, validate information, implement approval controls, and reduce manual document preparation.
 
@@ -23,6 +27,7 @@ The solution demonstrates how VBA can be used to build structured business workf
 - REST API integration (Frankfurter API)
 - PDF export
 - Windows file-system operations
+- deployed on Share Point
 
 ## Source Code
 
@@ -36,9 +41,7 @@ The `src/` directory contains three VBA modules:
 
 ## Notes
 
-This public repository contains VBA source code with demonstration credentials and anonymized configuration values. It does not include patient records or the operational Excel workbook.
-
-The Word template is not currently included.
+This public repository contains VBA source code with demonstration credentials and anonymized configuration values. It does not include patient records or the operational Excel workbook. The macros are committed here only for the aim to demonstrate the programming skills. The Word template is not currently included.
 
 ## Technical Documentation
 
@@ -51,8 +54,8 @@ For a more detailed understanding of the project, see:
 
 **Developer:** [LebsLabs](https://github.com/LebsLabs)
 
-**Project Type:** VBA Business Process Automation
+**Project Type:** Business Process Automation in VBA
 
 **Status:** Portfolio demonstration
 
-This repository showcases VBA programming and automation techniques developed for administrative workflows. The source code has been adapted for public presentation, with operational credentials and confidential business data excluded.
+This repository showcases VBA programming and automation techniques developed for administrative workflows. The source code has been adapted for public presentation, with operational credentials and confidential business data excluded. With the aim to showcase the programming skills.
