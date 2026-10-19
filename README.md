@@ -12,9 +12,7 @@ The GOP Generator was developed to enable staff to generate documents, update re
 
 ## Project Overview
 
-The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data.
-
-The solution demonstrates how VBA can be used to build structured business workflows, validate information, implement approval controls, and reduce manual document preparation.
+The GOP Generator automates repetitive administrative processes by integrating Microsoft Excel, Microsoft Word, PDF generation, and external currency exchange-rate data. The solution demonstrates how VBA can be used to build structured business workflows, validate information, implement approval controls, and reduce manual document preparation.
 
 ## Key Features
 
