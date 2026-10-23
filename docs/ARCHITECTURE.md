@@ -43,9 +43,6 @@ The workflow includes:
 
 ## 3. Data Flow
 
-
-## 3. Data Flow
-
 The following diagram illustrates the main GOP generation workflow and supporting modules.
 
 ```mermaid
