@@ -43,11 +43,29 @@ The workflow includes:
 
 ## 3. Data Flow
 
-The main GOP generation workflow follows this sequence:
 
-**Excel input → Validation → Approval checks → Word template population → PDF export → Register update**
+## 3. Data Flow
 
-Currency exchange rates are maintained through a separate API integration workflow.
+The following diagram illustrates the main GOP generation workflow and supporting modules.
+
+```mermaid
+flowchart TD
+    A["Excel Workbook - GOP input data"] --> B["Module1.bas - Input validation"]
+    B --> C{"Approval required?"}
+    C -->|Yes| D["APPROVALS worksheet - Validate single-use code"]
+    C -->|No| E["MAP worksheet - Field-to-placeholder mapping"]
+    D -->|Approved| E
+    E --> F["Microsoft Word - Populate template"]
+    F --> G["Export GOP as PDF"]
+    G --> H["Excel Register - Record GOP transaction"]
+
+    I["Module6.bas - Frankfurter API"] --> J["Exchange-rate cells and refresh timestamp"]
+    J -.-> A
+
+    K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
+```
+
+Currency exchange-rate retrieval and folder validation are shown as supporting functions. The diagram represents the conceptual workflow rather than every internal VBA procedure.
 
 ## 4. Dependencies
 
