@@ -2,7 +2,7 @@
 
 ## GOP Generator — Excel VBA Automation
 
-This project demonstrates the use of Visual Basic for Applications (VBA) to automate business processes involving Microsoft Excel, Word, PDF documents, and external data services.
+This project demonstrates the use of Visual Basic for Applications (VBA) to automate business processes involving Microsoft Office tools. 
 
 ## 1. Excel VBA Development
 
