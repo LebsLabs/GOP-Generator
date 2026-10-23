@@ -44,8 +44,4 @@ This project demonstrates the use of Visual Basic for Applications (VBA) to auto
 
 ## Portfolio Scope
 
-This repository contains anonymized VBA source code intended to demonstrate programming techniques and business automation capabilities.
-
-The operational Excel workbook, Word template, production credentials, and real business records are not included.
-
-The project is provided for code review and technical reference rather than as a ready-to-run application.
+This repository contains anonymized VBA source code intended to demonstrate business automation capabilities. The operational Excel workbook, Word template, production credentials, and real business records are not included. The project is provided for code review and technical reference rather than as a ready-to-run application.
