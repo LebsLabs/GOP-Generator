@@ -116,7 +116,7 @@ It demonstrates how existing business tools can be extended through programming 
 
 The project reflects experience in translating business requirements into technical solutions, designing automated workflows, and integrating multiple Microsoft Office applications.
 
-**Author:** Alen Leban  
-**GitHub:** [LebsLabs](https://github.com/LebsLabs)
+**Author:**  
+**GitHub:** 
 
 **Project:** GOP Generator — Excel VBA Business Process Automation
