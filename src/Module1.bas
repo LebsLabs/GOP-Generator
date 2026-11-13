@@ -9,14 +9,14 @@ Option Explicit
 '  - Codes live on the hidden APPROVALS sheet:
 '      A Code No | B Code | C Approver | D Max Level |
 '      E Status  | F Used On | G Case Ref | H Amount USD | I Entered By
-'  - Level 1 (Approver A / Approver B) covers USD 2,000-5,000.
-'    Level 2 (Senior Approver) is required above USD 5,000.
+'  - Level 1 (Approver A / Approver B) covers USD 1,000-2,000 'Demo value
+'    Level 2 (Senior Approver) is required above USD 2,000 'Demo value
 '    is also accepted for a Level 1 amount.
 '  - A code is only consumed once the PDF exists and the row is
 '    logged, so a failed run does not waste a code.
 '=========================================================
 Private Const FORM_SHEET     As String = "FORM"
-Private Const DATA_SHEET     As String = "ENSA"   'change once per insurance workbook
+Private Const DATA_SHEET     As String = "Insurance Company 1"   'change once per insurance workbook
 Private Const MAP_SHEET      As String = "MAP"
 Private Const APPROVAL_SHEET As String = "APPROVALS"
 Private Const SHEET_PASSWORD As String = "DEMO_PASSWORD" 
@@ -32,14 +32,14 @@ Private Const APPR_LOW_STOCK As Long = 5
 Private Const FX_CODES As String = "L2:T2"
 Private Const FX_RATES As String = "L3:T3"
 'Approval thresholds, in USD
-Private Const APPROVAL_LEVEL1 As Double = 2000
-Private Const APPROVAL_LEVEL2 As Double = 5000
+Private Const APPROVAL_LEVEL1 As Double = 1000 'Demo value
+Private Const APPROVAL_LEVEL2 As Double = 2000 'Demo value
 Private Const wdExportFormatPDF  As Long = 17
 Private Const wdDoNotSaveChanges As Long = 0
 Private Type FieldDef
     Caption     As String
     nameRef     As String
-    EnsaCol     As String
+    RegisterCol     As String
     placeholder As String
     Required    As Boolean
     FieldType   As String
@@ -219,8 +219,8 @@ Public Sub Create_GOP_And_Populate_Table()
         Exit Sub
     End If
     For i = 1 To n
-        If Len(f(i).EnsaCol) > 0 Then
-            With wsData.Range(f(i).EnsaCol & nextRow)
+        If Len(f(i).RegisterCol) > 0 Then
+            With wsData.Range(f(i).RegisterCol & nextRow)
                 Select Case UCase$(f(i).FieldType)
                     Case "DATE", "NUMBER": .Value = f(i).RawValue
                     Case Else:             .Value = f(i).TextValue
@@ -330,8 +330,8 @@ ErrorHandler:
         
         If rowWasAdded Then
             For i = 1 To n
-                If Len(f(i).EnsaCol) > 0 Then
-                    wsData.Range(f(i).EnsaCol & nextRow).ClearContents
+                If Len(f(i).RegisterCol) > 0 Then
+                    wsData.Range(f(i).RegisterCol & nextRow).ClearContents
                 End If
             Next i
         End If
@@ -367,10 +367,10 @@ Private Function GetApproval(amountUsd As Double, caseRef As String, _
     apprRow = 0: apprName = "": apprCode = ""
     If amountUsd > APPROVAL_LEVEL2 Then
         requiredLevel = 2
-        whoCanApprove = "Sean"
+        whoCanApprove = "Approver A"
     Else
         requiredLevel = 1
-        whoCanApprove = "Insaf, Lukanyo or Sean"
+        whoCanApprove = "Approver A, Approver B or Approver C"
     End If
     For attempt = 1 To APPR_ATTEMPTS
         entry = InputBox( _
@@ -453,7 +453,7 @@ Private Function CheckApprovalCode(entry As String, requiredLevel As Long, _
                     CheckApprovalCode = "That code belongs to " & apprName & _
                         ", who can approve up to " & _
                         Format$(APPROVAL_LEVEL2, "#,##0") & " USD." & vbCrLf & _
-                        "This amount needs a code from Sean."
+                        "This amount needs a code from Approver A."
                     apprRow = 0: apprName = ""
                     Exit Function
                 End If
@@ -525,7 +525,7 @@ Private Function LoadFieldMap(wsMap As Worksheet, f() As FieldDef) As Long
             k = k + 1
             f(k).Caption = Trim$(CStr(wsMap.Cells(r, "A").Value))
             f(k).nameRef = Trim$(CStr(wsMap.Cells(r, "B").Value))
-            f(k).EnsaCol = Trim$(CStr(wsMap.Cells(r, "C").Value))
+            f(k).RegisterCol = Trim$(CStr(wsMap.Cells(r, "C").Value))
             f(k).placeholder = Trim$(CStr(wsMap.Cells(r, "D").Value))
             f(k).Required = (UCase$(Trim$(CStr(wsMap.Cells(r, "E").Value))) = "YES")
             f(k).FieldType = Trim$(CStr(wsMap.Cells(r, "F").Value))
@@ -797,7 +797,7 @@ End Sub
 ' RUN ONCE: unlock the manual-entry columns, then protect.
 '=========================================================
 
-Public Sub Prepare_ENSA_Protection()
+Public Sub Prepare_Register_Protection()
     Dim wsData As Worksheet
     Set wsData = ThisWorkbook.Worksheets(DATA_SHEET)
     If wsData.ProtectContents Then wsData.Unprotect Password:=SHEET_PASSWORD
@@ -818,5 +818,5 @@ Public Sub Prepare_ENSA_Protection()
                    AllowFormattingCells:=True, AllowFormattingColumns:=True, _
                    AllowFormattingRows:=True
     MsgBox "Manual entry columns unlocked. Formula columns stay protected.", _
-           vbInformation, "ENSA Protection Set"
+           vbInformation, "Insurance Company 1 Protection Set"
 End Sub
