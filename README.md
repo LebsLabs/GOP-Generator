@@ -74,7 +74,7 @@ The repository contains VBA modules responsible for different parts of the autom
 |---|---|
 | `Module1.bas` | Main GOP generation and workflow automation |
 | `Module2.bas` | File and folder validation |
-| `Module6.bas` | Supporting automation functionality |
+| `Module3.bas` | Supporting automation functionality |
 
 The modules demonstrate structured VBA development, Microsoft Office integration, conditional business logic, and file-system operations.
 
