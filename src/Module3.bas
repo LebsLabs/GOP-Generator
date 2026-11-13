@@ -9,7 +9,7 @@ Option Explicit
 Public Sub Refresh_Latest_Exchange_Rates()
 
     'Change this ONCE for each insurance workbook:
-    Const DATA_SHEET As String = "ENSA"
+    Const DATA_SHEET As String = "Insurance Company 1"
 
     Const SHEET_PASSWORD As String = "DEMO_PASSWORD"
     Const CODE_ROW As Long = 2          'row holding currency codes
