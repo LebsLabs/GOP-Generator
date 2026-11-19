@@ -39,7 +39,7 @@ flowchart TD
     K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
 
     I ~~~ K
-    J ~~~ L
+    
 ```
 
 ## 4. Dependencies
