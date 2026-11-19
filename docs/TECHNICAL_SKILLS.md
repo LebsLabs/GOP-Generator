@@ -1,4 +1,4 @@
-# Technical Skills Demonstrated
+# Technical Skills
 
 ## GOP Generator — Excel VBA Automation
 
