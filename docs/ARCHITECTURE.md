@@ -42,8 +42,8 @@ flowchart TD
 
 ## 4. Dependencies
 
-- Signed in Microsoft account
-- Set up OneDrive, synced folder with Sharepoint
+- An active Microsoft account with the user signed in
+- OneDrive configured and synchronized with the relevant SharePoint folders
 - Microsoft Office
 - Windows environment for local file-system operations
 - Internet connectivity for exchange-rate retrieval
