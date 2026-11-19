@@ -14,7 +14,7 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 
 - FORM (see attached picture) contains fields that need to be filled out. The fields are double-checked by a macro to ensure that they are correctly filled in. The coordinator must enter the Date of GOP, Provider, Patient, etc. Once the button 'Create a GOP and Populate Table' is clicked, the GOP is created with the inserted data, and at the same time, the CLIENT sheet is automatically populated. The 'Check Path' button is password-protected and is intended only to verify that the SharePoint folder is correctly connected to the OneDrive folder signed in by the coordinator.
 
-<img width="1877" height="705" alt="Screenshot 2026-11-19 140726" src="https://github.com/user-attachments/assets/0f5bc7c8-14a8-4318-8d03-ebb473378369" />
+<img width="1335" height="633" alt="picture A" src="https://github.com/user-attachments/assets/124eeb73-4a3a-4b57-86a0-3b971a232ca1" />
 
 - CLIENT sheet contains a table that is automatically populated with GOP data when a GOP is created. The columns of the table are generally named exactly as the corresponding fields. However, from column J onwards, the table is no longer populated automatically, but the data is entered manually by the Finance Department. This helps to reconcile the finances between the two departments.  
 
