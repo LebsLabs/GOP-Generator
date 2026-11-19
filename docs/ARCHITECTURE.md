@@ -42,11 +42,12 @@ flowchart TD
 
 ## 4. Dependencies
 
-- Microsoft Excel with VBA support.
-- Microsoft Word for document generation.
-- Windows environment for local file-system operations.
-- Internet connectivity for exchange-rate retrieval.
-- An appropriately configured Excel workbook and Word template.
+- Signed in Microsoft account
+- Set up OneDrive, synced folder with Sharepoint
+- Microsoft Office
+- Windows environment for local file-system operations
+- Internet connectivity for exchange-rate retrieval
+- An appropriately configured Excel workbook and Word template
 
 ## 5. Configuration
 
