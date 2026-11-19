@@ -57,15 +57,13 @@ The objective was to with "one-click" create GOP, and store data into a tracker.
 
 ## Code
 
-The repository contains VBA modules responsible for different parts of the automation process.
+You can find the code in the following files: 
 
 | File | Responsibility |
 |---|---|
 | `Module1.bas` | Main GOP generation and workflow automation |
 | `Module2.bas` | File and folder validation |
 | `Module3.bas` | Supporting automation functionality |
-
-The modules demonstrate structured VBA development, Microsoft Office integration, conditional business logic, and file-system operations.
 
 **Technical Skills Demonstrated**
 
