@@ -1,24 +1,18 @@
-# GOP Generator — Technical Architecture
+# GOP Generator and tracker — Technical Architecture
 
 ## 1. System Overview
 
-GOP Generator is a Microsoft Excel VBA automation project designed to support Guarantee of Payment (GOP) administration.
-
-The application combines Excel worksheet operations, Word document automation, PDF generation, approval validation, and currency exchange-rate retrieval.
+GOP Generator is a Microsoft Excel VBA automation project designed to automate a departmental administrative process. It is built in Excel worksheet with macros (.xlsm file) plus Word document (input), PDF (output) and Frankfurter API currecny exchange retrieval.  
 
 ## 2. System Components
 
 ### Module1.bas — GOP Generation
 
-The main VBA module coordinates the GOP generation process.
-Its responsibilities include:
+The module1 the main VBA module coordinates the entire process. This module actually could keep the process running even without other two modules. It is responsible for reading the inserted data into the FORM, populate the table in CLIENT sheet and generating a .pdf file as an output which is the GOP document itself.   
 
-- Reading and validating information from Excel.
 - Using a hidden `MAP` worksheet to associate Excel fields with Word document placeholders.
 - Checking approval requirements against configured thresholds.
 - Validating single-use approval codes where required.
-- Populating a Word document through VBA automation.
-- Exporting the completed document to PDF.
 - Updating the relevant Excel register.
 - Handling processing errors and cleanup.
 
