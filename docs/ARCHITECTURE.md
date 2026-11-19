@@ -8,15 +8,7 @@ GOP Generator is a Microsoft Excel VBA automation project designed to automate a
 
 ### Module1.bas — GOP Generation
 
-The module1 the main VBA module coordinates the entire process. This module actually could keep the process running even without other two modules. It is responsible for reading the inserted data into the FORM, populate the table in CLIENT sheet and generating a .pdf file as an output which is the GOP document itself.   
-
-- Using a hidden `MAP` worksheet to associate Excel fields with Word document placeholders.
-- Checking approval requirements against configured thresholds.
-- Validating single-use approval codes where required.
-- Updating the relevant Excel register.
-- Handling processing errors and cleanup.
-
-The module uses an `APPROVALS` worksheet to support authorization-code validation.
+The module1 the main VBA module coordinates the entire process. This module actually could keep the process running even without other two modules. It is responsible for reading the inserted data into the FORM, populate the table in CLIENT sheet and generating a .pdf file as an output which is the GOP document itself, Using a hidden `MAP` worksheet to associate Excel fields with Word document placeholders, Checking approval requirements against configured thresholds, Validating single-use approval codes where required, Updating the relevant Excel register, Handling processing errors and cleanup. The module uses an `APPROVALS` worksheet to support authorization-code validation.
 
 ### Module2.bas — Folder Validation
 
@@ -26,14 +18,7 @@ It includes a demonstration password and a local directory check using Windows e
 ### Module3.bas — Exchange-Rate Integration
 
 This module retrieves exchange rates through the public Frankfurter API.
-The workflow includes:
-
-1. Reading currency codes from the configured Excel worksheet.
-2. Making HTTP requests to retrieve exchange-rate information.
-3. Processing the returned data.
-4. Updating exchange-rate cells.
-5. Recording the latest refresh timestamp.
-6. Handling unsuccessful requests and other processing errors.
+The workflow includes: Reading currency codes from the configured Excel worksheet, Making HTTP requests to retrieve exchange-rate information, Processing the returned data, Updating exchange-rate cells, Recording the latest refresh timestamp, Handling unsuccessful requests and other processing errors.
 
 ## 3. Data Flow
 
