@@ -1,26 +1,18 @@
-# GOP Generator — Excel VBA Business Process Automation
+# GOP Generator and tracker
 
-## 1. Why This Project Exists
+## 1. Intro 
 
-In healthcare administration, preparing Guarantees of Payment (GOPs) is a repetitive process involving patient information, insurance details, financial validation, document preparation, and record management.
+In healthcare administration preparing GOP or other documents can be a routine repetitive task that requires entering same information mostly all of the time increasing the risk of human error, and other administrative errors or delays. 
 
-When performed manually, this process requires entering the same information into multiple documents, increasing the risk of human error, inconsistencies, and administrative delays.
+Therefore, based on the Head of Department GOP tracker was developed with the aim to automate this part of workflow using Microsoft Excel VBA. 
 
-The **GOP Generator** was developed to simplify and automate this workflow using Microsoft Excel VBA.
+The objective was to with "one-click" create GOP, and store data into a tracker. Plus, enhance the overview over the process by assigning validation codes to the team leaders and display real-time data, so to avoid falling below the approved sum. 
 
-The objective was to create a centralized solution that reduces manual work, improves data consistency, and standardizes the preparation of financial guarantee documents.
+## 2. How does it work?
 
-## 2. Project Overview
+## 3. Main challenges
 
-The GOP Generator is an Excel VBA-based business process automation tool designed to support the preparation, validation, generation, and recording of Guarantees of Payment.
-
-The application integrates Microsoft Excel and Microsoft Word to transform structured worksheet data into standardized GOP documents.
-
-It incorporates financial validation, conditional approval workflows, authorization controls, and automated PDF generation.
-
-The solution was developed to support operational requirements in a real healthcare administration environment.
-
-## 3. Key Features
+## Key Features
 
 ### Automated GOP Generation
 
@@ -51,11 +43,8 @@ The solution was developed to support operational requirements in a real healthc
 - Supports consistent naming and organization of generated files.
 - Includes error-handling procedures to reduce workflow interruptions.
 
-### Modular VBA Architecture
 
-The application separates its main responsibilities into individual VBA modules, making the solution easier to maintain, troubleshoot, and extend.
-
-## 4. Technologies Used
+## Technologies used
 
 | Technology | Purpose |
 |---|---|
@@ -66,7 +55,7 @@ The application separates its main responsibilities into individual VBA modules,
 | PDF Export | Creation of standardized output documents |
 | Windows File System | File validation, naming, and document storage |
 
-## 5. Source Code
+## Code
 
 The repository contains VBA modules responsible for different parts of the automation process.
 
@@ -77,24 +66,6 @@ The repository contains VBA modules responsible for different parts of the autom
 | `Module3.bas` | Supporting automation functionality |
 
 The modules demonstrate structured VBA development, Microsoft Office integration, conditional business logic, and file-system operations.
-
-## 6. Notes
-
-This project was developed as part of a real-world business process improvement initiative.
-
-The public repository is intended to demonstrate the technical architecture and automation approach rather than provide a complete production deployment.
-
-Operational workbooks, confidential patient information, insurance records, internal file paths, and organization-specific configurations are not intended for public distribution.
-
-The VBA modules may require adaptation to work with different Excel workbook structures, Word templates, and organizational requirements.
-
-## 7. Technical Documentation
-
-Additional documentation is available in the repository:
-
-**Technical Architecture**
-
-Describes the overall solution structure, main components, automation workflow, and interaction between Microsoft Excel, VBA, Microsoft Word, and the file system.
 
 **Technical Skills Demonstrated**
 
@@ -108,15 +79,10 @@ Provides a detailed overview of the technical competencies applied in the projec
 - Automated document generation and PDF export.
 - Error handling and file-system management.
 
-## 8. Portfolio Information
+## Portfolio Information
 
 This project is part of my software development and business automation portfolio.
 
 It demonstrates how existing business tools can be extended through programming to solve practical operational problems.
 
 The project reflects experience in translating business requirements into technical solutions, designing automated workflows, and integrating multiple Microsoft Office applications.
-
-**Author:**  
-**GitHub:** 
-
-**Project:** GOP Generator — Excel VBA Business Process Automation
