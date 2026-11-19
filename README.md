@@ -24,8 +24,8 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 |---|---|
 | Automated GOP Generation | Populates a predefined Microsoft Word template using VBA automation and exports completed PDF. |
 | Financial Validation and Approval Controls | Supports authorization-code validation for transactions requiring additional approval. |
-| Automated Record Management | Reduces repetitive manual data entry and supports consistency between generated documents and internal records. |
-| File and Folder Management | Automates document-saving operations and supports consistent naming and organization of generated files. |
+| Automated Records | Reduces repetitive manual data entry and supports consistency between generated documents and internal records. |
+| Folder Management | Automates document-saving operations and supports consistent naming and organization of generated files. |
 
 ## 4. Technologies used
 
@@ -48,10 +48,9 @@ You can find the code in the following files:
 | `Module2.bas` | File and folder validation |
 | `Module3.bas` | Supporting automation functionality |
 
-## Portfolio Information
+## 6. Portfolio Information
 
-This project is part of my software development and business automation portfolio.
-
-It demonstrates how existing business tools can be extended through programming to solve practical operational problems.
-
-The project reflects experience in translating business requirements into technical solutions, designing automated workflows, and integrating multiple Microsoft Office applications.
+I listed this project within my portfolio because of: 
+- It demonstrates VBA language,
+- shows my knowledge of Microsoft Excel and macros,
+- and it shows a simple business process being automated. 
