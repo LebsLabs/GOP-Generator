@@ -1,4 +1,4 @@
-# GOP Generator and tracker — Technical Architecture
+# Architecture
 
 ## 1. System Overview
 
