@@ -10,39 +10,26 @@ The objective was to with "one-click" create GOP, and store data into a tracker.
 
 ## 2. How does it work?
 
+The file contains two main sheets: FORM and CLIENT(Differently named)
+
+- FORM (see attached picture) contains fields that need to be filled out. The fields are double-checked by a macro to ensure that they are correctly filled in. The coordinator must enter the Date of GOP, Provider, Patient, etc. Once the button 'Create a GOP and Populate Table' is clicked, the GOP is created with the inserted data, and at the same time, the CLIENT sheet is automatically populated. The 'Check Path' button is password-protected and is intended only to verify that the SharePoint folder is correctly connected to the OneDrive folder signed in by the coordinator.
+
+<img width="1877" height="705" alt="Screenshot 2026-11-19 140726" src="https://github.com/user-attachments/assets/19b6496a-4d96-452a-afd2-a8813a8b1fbf" />
+
+- CLIENT sheet contains a table that is automatically populated with GOP data when a GOP is created. The columns of the table are generally named exactly as the corresponding fields. However, from column J onwards, the table is no longer populated automatically, but the data is entered manually by the Finance Department. This helps to reconcile the finances between the two departments.  
+
+## 3. Key Features
+
+### Automated GOP Generation:
+    Populates a predefined Microsoft Word template using VBA automation and exports completed PDF..
+### Financial Validation and Approval Controls:
+    Supports authorization-code validation for transactions requiring additional approval.
+### Automated Record Management:
+    Reduces repetitive manual data entry and supports consistency between generated documents and internal records.
+### File and Folder Management:
+    Automates document-saving operations and supports consistent naming and organization of generated files.
+
 ## 3. Main challenges
-
-## Key Features
-
-### Automated GOP Generation
-
-- Extracts relevant patient, provider, insurance, and financial information from Excel.
-- Populates a predefined Microsoft Word template using VBA automation.
-- Replaces document placeholders with corresponding worksheet values.
-- Generates standardized GOP documents.
-- Exports completed documents to PDF.
-
-### Financial Validation and Approval Controls
-
-- Validates required financial information before document generation.
-- Applies conditional business rules based on financial thresholds.
-- Supports authorization-code validation for transactions requiring additional approval.
-- Incorporates controls designed to prevent unauthorized document generation.
-
-### Automated Record Management
-
-- Records GOP-related transactions in structured Excel worksheets.
-- Maintains relevant financial and administrative information.
-- Reduces repetitive manual data entry.
-- Supports consistency between generated documents and internal records.
-
-### File and Folder Management
-
-- Validates required file and folder locations.
-- Automates document-saving operations.
-- Supports consistent naming and organization of generated files.
-- Includes error-handling procedures to reduce workflow interruptions.
-
 
 ## Technologies used
 
