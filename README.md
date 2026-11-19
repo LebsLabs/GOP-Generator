@@ -20,14 +20,14 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 
 ## 3. Key Features
 
-- Automated GOP Generation: Populates a predefined Microsoft Word template using VBA automation and exports completed PDF.
-- Financial Validation and Approval Controls: Supports authorization-code validation for transactions requiring additional approval.
-- Automated Record Management: Reduces repetitive manual data entry and supports consistency between generated documents and internal records.
-- File and Folder Management: Automates document-saving operations and supports consistent naming and organization of generated files.
+| Feature | Characteristic |
+|---|---|
+| Automated GOP Generation | Populates a predefined Microsoft Word template using VBA automation and exports completed PDF. |
+| Financial Validation and Approval Controls | Supports authorization-code validation for transactions requiring additional approval. |
+| Automated Record Management | Reduces repetitive manual data entry and supports consistency between generated documents and internal records. |
+| File and Folder Management | Automates document-saving operations and supports consistent naming and organization of generated files. |
 
-## 3. Main challenges
-
-## Technologies used
+## 4. Technologies used
 
 | Technology | Purpose |
 |---|---|
@@ -38,7 +38,7 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 | PDF Export | Creation of standardized output documents |
 | Windows File System | File validation, naming, and document storage |
 
-## Code
+## 5. Code
 
 You can find the code in the following files: 
 
@@ -47,18 +47,6 @@ You can find the code in the following files:
 | `Module1.bas` | Main GOP generation and workflow automation |
 | `Module2.bas` | File and folder validation |
 | `Module3.bas` | Supporting automation functionality |
-
-**Technical Skills Demonstrated**
-
-Provides a detailed overview of the technical competencies applied in the project, including:
-
-- Excel VBA development and modular programming.
-- Microsoft Office COM automation.
-- Structured data processing and validation.
-- Business process automation.
-- Conditional approval and authorization logic.
-- Automated document generation and PDF export.
-- Error handling and file-system management.
 
 ## Portfolio Information
 
