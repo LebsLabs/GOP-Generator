@@ -36,7 +36,7 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 | Microsoft Word | Template-based GOP document generation |
 | COM Automation | Programmatic interaction between Excel and Word |
 | PDF Export | Creation of standardized output documents |
-| SharePoint, One Drive | File validation, naming, and document storage |
+| Sharepoint, OneDrive | File validation, naming, and document storage |
 
 ## 5. Code
 
