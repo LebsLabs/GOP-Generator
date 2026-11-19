@@ -20,14 +20,13 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 
 ## 3. Key Features
 
-Automated GOP Generation:
-    Populates a predefined Microsoft Word template using VBA automation and exports completed PDF..
-Financial Validation and Approval Controls:
-    Supports authorization-code validation for transactions requiring additional approval.
-Automated Record Management:
-    Reduces repetitive manual data entry and supports consistency between generated documents and internal records.
-File and Folder Management:
-    Automates document-saving operations and supports consistent naming and organization of generated files.
+Automated GOP Generation: Populates a predefined Microsoft Word template using VBA automation and exports completed PDF.
+
+Financial Validation and Approval Controls: Supports authorization-code validation for transactions requiring additional approval.
+
+Automated Record Management: Reduces repetitive manual data entry and supports consistency between generated documents and internal records.
+
+File and Folder Management: Automates document-saving operations and supports consistent naming and organization of generated files.
 
 ## 3. Main challenges
 
