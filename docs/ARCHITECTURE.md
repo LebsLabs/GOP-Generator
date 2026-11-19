@@ -16,7 +16,7 @@ This utility demonstrates folder accessibility checks using VBA. It includes a d
 
 ### Module3.bas — Exchange-Rate Integration
 
-This module retrieves exchange rates through the public Frankfurter API. The workflow includes: Reading currency codes from the configured Excel worksheet, Making HTTP requests to retrieve exchange-rate information, Processing the returned data, Updating exchange-rate cells, Recording the latest refresh timestamp, Handling unsuccessful requests.
+This module retrieves exchange rates through the public Frankfurter API. First it reads the currency codes in the Excel worksheet, and then make a HTTP request to retrieve exchange-rate information. It update the ER table and timestamp. 
 
 ## 3. Data Flow
 
