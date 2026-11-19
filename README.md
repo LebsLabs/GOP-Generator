@@ -20,7 +20,7 @@ The file contains two main sheets: FORM and CLIENT(Differently named)
 
 ## 3. Key Features
 
-| Feature | Characteristic |
+| Feature | Scope |
 |---|---|
 | Automated GOP Generation | Populates a predefined Microsoft Word template using VBA automation and exports completed PDF. |
 | Financial Validation and Approval Controls | Supports authorization-code validation for transactions requiring additional approval. |
