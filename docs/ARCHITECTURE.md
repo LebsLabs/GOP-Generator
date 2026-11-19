@@ -20,7 +20,7 @@ This module retrieves exchange rates through the public Frankfurter API. First i
 
 ## 3. Data Flow
 
-The following diagram illustrates the main GOP generation workflow and supporting modules.
+The following diagram illustrates the main GOP generation conceptual workflow and supporting modules.
 
 ```mermaid
 flowchart TD
@@ -38,8 +38,6 @@ flowchart TD
 
     K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
 ```
-
-Currency exchange-rate retrieval and folder validation are shown as supporting functions. The diagram represents the conceptual workflow rather than every internal VBA procedure.
 
 ## 4. Dependencies
 
