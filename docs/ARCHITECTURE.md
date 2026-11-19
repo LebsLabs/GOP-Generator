@@ -33,7 +33,7 @@ flowchart TD
     F --> G["Export GOP as PDF"]
     G --> H["Excel Register - Record GOP transaction"]
 
-    I["Module3.bas - Frankfurter API"] --> J["Exchange-rate cells and refresh timestamp"]
+    I["Module3.bas - Link Frankfurter API"] --> J["Exchange-rate cells and refresh timestamp"]
     J -.-> A
 
     K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
