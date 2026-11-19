@@ -23,18 +23,20 @@ This module retrieves exchange rates through the public Frankfurter API. First i
 The following diagram illustrates the main GOP generation conceptual workflow and supporting modules.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Excel Workbook - GOP input data"] --> B["Module1.bas - Input validation"]
     B --> C{"Approval required?"}
-    C --> D["APPROVALS / MAP"]
-    D --> F["Microsoft Word"]
-    F --> G["Export PDF"]
+    C -->|Yes| D["APPROVALS worksheet - Validate single-use code"]
+    C -->|No| E["MAP worksheet - Field-to-placeholder mapping"]
+    D -->|Approved| E
+    E --> F["Microsoft Word - Populate template"]
+    F --> G["Export GOP as PDF"]
+    G --> H["Excel Register - Record GOP transaction"]
 
-    subgraph SUPPORT["Supporting modules"]
-        direction TB
-        I["Module3.bas - Frankfurter API"] --> J["Exchange-rate cells"]
-        K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
-    end
+    I["Module3.bas - Frankfurter API"] --> J["Exchange-rate cells and refresh timestamp"]
+    J -.-> A
+
+    K["Module2.bas - Folder validation"] -.-> L["Local file-system check"]
     
 ```
 
