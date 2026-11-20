@@ -51,11 +51,7 @@ flowchart TD
 
 ## 5. Configuration
 
-The public source code contains demonstration configuration values.
-
-The application depends on specific worksheet names, cell references, mapping tables, and document placeholders.
-
-Users adapting the source code must configure these elements for their own workbook and template.
+If you download the source code from here, please make sure that, once extracted, the worksheet names and document placeholders are correctly configured, as the application depends on specific worksheet names and document placeholders to function properly.
 
 ## 6. Security and Privacy
 
