@@ -53,7 +53,7 @@ flowchart TD
 
 If you download the source code from here, please make sure that, once extracted, the worksheet names and document placeholders are correctly configured, as the application depends on specific worksheet names and document placeholders to function properly.
 
-## 6. Security and Privacy
+## 6. Security & Privacy
 
 The source code and accompanying documentation have been sanitized and anonymized. The password should not be considered a secure authentication mechanism. Patient records and production data are not distributed, internal folder paths have been anonymized, and the Word template is not included.
 
