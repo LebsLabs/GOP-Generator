@@ -55,16 +55,4 @@ If you download the source code from here, please make sure that, once extracted
 
 ## 6. Security and Privacy
 
-This repository is intended to demonstrate VBA automation techniques.
-
-- Operational credentials are not included.
-- Demonstration passwords must not be treated as secure authentication.
-- Patient records and production workbooks are not distributed.
-- Internal folder paths have been replaced or anonymized.
-- The Word template is not currently included.
-
-## 7. Project Scope
-
-The repository provides VBA source modules for technical reference and portfolio demonstration.
-
-It is not a standalone, ready-to-run application. The original workbook structure and supporting document templates are required for full functionality.
+The source code and accompanying documentation have been sanitized and anonymized. The password should not be considered a secure authentication mechanism. Patient records and production data are not distributed, internal folder paths have been anonymized, and the Word template is not included.
