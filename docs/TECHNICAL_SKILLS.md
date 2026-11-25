@@ -1,46 +1,35 @@
 # Technical Skills
 
-## GOP Generator — Excel VBA Automation
+## GOP Generator — Business Process Automation
 
-This project demonstrates the practical application of Visual Basic for Applications (VBA) to automate administrative business processes through Microsoft Excel, Microsoft Word, PDF generation, and external API integration. 
+Creating the GOP Generator requires considerable knowledge of Microsoft Excel and macros. Developing and maintaining the application also requires knowledge of Microsoft Word, API integration and how APIs function, as well as PDF generation.
 
-## 1. Excel VBA Development
+Building such a business process automation solution also requires an understanding of the healthcare industry and finance. 
 
-- Modular VBA programming with reusable procedures and functions.
-- Worksheet manipulation and structured data processing.
-- Input validation and conditional business logic.
-- Automated transaction recording.
-- Error handling and application-state management.
+## 1. Excel and VBA 
+
+- VBA programming across modules, API integration, and automated PDF generation.
+- Writing formulas, structuring data, and creating a logically functioning workbook.
 
 ## 2. Microsoft Office Automation
 
-- Programmatic control of Microsoft Word from Excel using COM automation.
-- Dynamic document generation using placeholders and mapping tables.
-- Automated PDF export.
-- File-system operations and output validation.
+- Defining and configuring file paths for PDF generation.
+- Knowledge of programmatic interaction with SharePoint and OneDrive.
+- Automated document and PDF generation.
 
 ## 3. Business Process Automation
 
-- Conditional approval workflows based on financial thresholds.
-- Single-use authorization-code validation.
-- Automated record management.
+- Implementation of single-use authorization code validation logic.
 - Integration of document generation with administrative workflows.
 
 ## 4. API Integration
 
-- HTTP requests to an external exchange-rate service.
+- Sending HTTP requests to an external exchange-rate service.
 - Processing API responses.
-- Updating Excel worksheets with retrieved currency data.
-- Recording refresh timestamps and handling unsuccessful requests.
+- Implementing timestamp recording to track exchange-rate refreshes.
 
 ## 5. Software Development Practices
 
 - Separation of functionality across VBA modules.
-- Use of constants and configuration parameters.
 - Defensive input validation.
 - Structured error-handling procedures.
-- Technical documentation of application components.
-
-## Portfolio Scope
-
-This repository contains anonymized VBA source code intended to demonstrate business automation capabilities. The operational Excel workbook, Word template, production credentials, and real business records are not included. The project is provided for code review and technical reference rather than as a ready-to-run application.
